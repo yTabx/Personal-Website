@@ -14,7 +14,7 @@ function Cards() {
                             src = 'images/web-screenshot.jpg' 
                             alt = 'portfolio image' 
                             label = 'github'
-                            path = '' /*TODO*/
+                            path = 'https://github.com/yTabx/Personal-Website' 
                             text = 'Personal Website creted with Javasript and  React'
                         />
                         
