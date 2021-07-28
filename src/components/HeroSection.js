@@ -14,7 +14,7 @@ function HeroSection() {
                 <p>
                     I aim to pursue a career within the tech industry. 
                 
-                    My name is Nicholas Iyamabo and I am a second-year computer science student at the University of Birmingham. 
+                    My name is Nicholas Iyamabo and I am a second-year Computer Science student at the University of Birmingham. 
                     Feel free to explore this website and contact me on any of the socials below.
                         
                 </p>

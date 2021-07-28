@@ -16,7 +16,7 @@ function ListsBlock() {
                         />
                         <ListCard
                             heading = "Learning"
-                            itemList = {[["React","/react"],["HTML","/html"],["CSS","/css"],['Javascript','javascript']]}
+                            itemList = {[["React","/react"],["HTML","/html"],["CSS","/css"],['JavaScript','javascript']]}
                         />
                         <ListCard
                             heading = "want to learn"
