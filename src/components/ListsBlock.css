@@ -4,7 +4,7 @@
 }
 .listsBlock {
     padding: 0rem;
-    background: #fff;
+    background: rgb(255, 255, 255);
 
   }
 
@@ -19,11 +19,13 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+    
   }
   
   .Lists__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    
   }
  
   
@@ -36,8 +38,9 @@
     margin: 10 1rem;
     margin-top:-55px;
     border-radius: 10px;
-    background-color: #fafafa;
-    box-shadow:black;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0px 12px rgba(141, 141, 141, 0.158));
+    
   }
   .list-items-block{
       background-color: aqua;
@@ -81,7 +84,7 @@
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   .card-wrapper{
-      background-color: forestgreen;
+      background-color: rgb(255, 255, 255);
       margin-left: 5px;
       margin-right: 5px;
       align-items: center;
