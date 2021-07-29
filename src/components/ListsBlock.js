@@ -6,7 +6,11 @@ import './ListsBlock.css';
 
 function ListsBlock() {
     return (
+        
         <div className = 'listsBlock'>
+            <h1>
+                Technologies
+            </h1>
             <div className= "Lists__container">
                 <div className = "Lists__wrapper">
                     <ul className = "List__items">
