@@ -49,7 +49,7 @@
   
   .nav-menu {
     /*center nav bar hack TODO*/
-    margin-left: 24px;
+    margin-left: 22px;
     display: flex;
     -ms-flex-align: center;
     grid-template-columns: repeat(3, minmax(0, 1fr));
