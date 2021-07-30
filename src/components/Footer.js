@@ -23,6 +23,7 @@ function Footer() {
                             <a className="social-icon-link github"
                                 href = 'https://github.com/yTabx'
                                 target = "_blank"
+                                rel="noreferrer"
                                 aria-label = 'github'
                             >
                                 <i className="fab fa-github"></i>
@@ -30,6 +31,7 @@ function Footer() {
                             <a className="social-icon-link linkedin"
                                 href = 'https://www.linkedin.com/in/nicholas-iyamabo/'
                                 target = "_blank"
+                                rel="noreferrer"
                                 aria-label = 'Linkedin'
                             >
                                 <i className="fab fa-linkedin"></i>

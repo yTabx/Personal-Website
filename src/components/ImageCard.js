@@ -6,7 +6,7 @@ function ImageCard(props) {
     return (
         <>
         
-            <a href = {props.href}  target = '_blank' rel='noopener noreferrer'>
+            <a href = {props.href}  target = '_blank' rel="noreferrer" rel='noopener noreferrer'>
                 
                     <img className = 'image' src = {props.src} alt = {props.alt}  />
                 
