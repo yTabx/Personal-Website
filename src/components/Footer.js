@@ -6,7 +6,7 @@ import './Footer.css';
 function Footer() {
     return (
         <div className = 'footer-container'>
-            <h1>Contact infomation</h1>
+            <h1 className= 'contact-info-text'>Contact infomation</h1>
             
             <section className="social-media">
                 <section className="social-media-wrap">

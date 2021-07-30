@@ -2,8 +2,13 @@
 h1{
     padding-top:16px;
     font-family:'Times New Roman', Times, serif;
-    color:rgb(214, 214, 214)
+    color:rgb(36, 36, 36)
     
+}
+.contact-info-text{
+    padding-top:16px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(214, 214, 214)
 }
 a {
     align-items: center;
