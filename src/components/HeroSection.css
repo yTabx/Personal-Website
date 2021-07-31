@@ -46,7 +46,10 @@
     }
     .About-Text{
         font-size: 1.13rem;
-        padding: 14px 4px;
+        padding-top:14px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-bottom: 14px;
     }
   }
   
