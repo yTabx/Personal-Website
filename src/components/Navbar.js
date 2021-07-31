@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button';
+import  { useRef } from 'react'
 function Navbar(){
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
@@ -27,10 +28,7 @@ function Navbar(){
         
     }
 
-    //have the sign up button not show up every time we refresh
-    useEffect(() => {
-        showButton()
-    },[])
+   
 
     window.addEventListener('resize',showButton);
    return (
@@ -41,9 +39,9 @@ function Navbar(){
                    
                     <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
                         <li className = 'nav-item'>
-                            <Link to='/' className ='nav-links' onClick = {() => scrollToPosition(50)}>
+                            <a href = '#about' className ='nav-links'>
                                 About
-                            </Link>
+                            </a>
                         </li>
                         <li className = 'nav-item'>
                             <Link to='/' className ='nav-links' onClick = {() => scrollToPosition(0)}>
@@ -51,9 +49,9 @@ function Navbar(){
                             </Link>
                         </li>
                         <li className = 'nav-item'>
-                            <Link to='/' className ='nav-links' onClick = {() => scrollToPosition(750)}>
+                            <a  className ='nav-links' href = '#portfolio'>
                                 Portfolio
-                            </Link>
+                            </a>
                         </li>
                         
                     </ul>

@@ -6,7 +6,7 @@ import ImageCard from './ImageCard'
 import CardItem from './CardItem';
 function HeroSection() {
     return (
-        <div className = 'about-card'>
+        <div className = 'about-card' id = 'about'>
             <div className = 'About-Text'>
                 <p >
                     Motivated by growth and innovation,
