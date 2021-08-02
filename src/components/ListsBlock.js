@@ -23,7 +23,7 @@ function ListsBlock() {
                             itemList = {[["React","/react"],["HTML","/html"],["CSS","/css"],['JavaScript','javascript']]}
                         />
                         <ListCard
-                            heading = "want to learn"
+                            heading = "Want to learn"
                             itemList = {[["Django","/django"]]}
                         />
                     </ul>
