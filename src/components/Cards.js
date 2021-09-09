@@ -15,7 +15,7 @@ function Cards() {
                             alt = 'portfolio image' 
                             label = 'github'
                             path = 'https://github.com/yTabx/Personal-Website' 
-                            text = 'Personal Website created with JavaScript and React'
+                            text = 'Personal Website cretead with JavaScript and React'
                         />
                         
                     </ul>
