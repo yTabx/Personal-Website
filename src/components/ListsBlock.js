@@ -20,11 +20,11 @@ function ListsBlock() {
                         />
                         <ListCard
                             heading = "Learning"
-                            itemList = {[["React","/react"],["HTML","/html"],["CSS","/css"],['JavaScript','javascript']]}
+                            itemList = {[["React","/react"],["HTML","/html"],["CSS","/css"],['JavaScript','javascript'],["Haskell","/haskell"],["C","c"],["C++","c++"]]}
                         />
                         <ListCard
                             heading = "Want to learn"
-                            itemList = {[["Django","/django"]]}
+                            itemList = {[["Django","/django"],["AWS","/aws"]]}
                         />
                     </ul>
                     
