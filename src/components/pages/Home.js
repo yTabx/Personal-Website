@@ -9,10 +9,11 @@ import './Home.css';
 function Home(){
     return(
         <>
-            <HeroSection />
-            <ListsBlock />
-            
-            <Cards />
+            <Typewriter 
+                onInit = {(typewriter) => {
+                    typewriter.typeString("hello world").start();
+                } }       
+            />
                 
                    
         </>
