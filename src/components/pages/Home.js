@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import ListsBlock from '../ListsBlock';
 import CardItem from '../CardItem';
 import './Home.css';
-import Typewriter from "typewriter-effect";
+import Typewriter from 'typewriter-effect';
 function Home(){
     return(
         <>
