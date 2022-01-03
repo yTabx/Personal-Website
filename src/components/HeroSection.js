@@ -8,12 +8,9 @@ import Typewriter from "typewriter-effect";
 
 function HeroSection() {
     return (
+        
         <div className = 'about-card' id = 'about'>
-            <Typewriter 
-                onInit = {(typewriter) => {
-                    typewriter.typeString("hello world").start();
-                } }       
-            />
+            
             <div className = 'About-Text'>
                 <p >
                     Motivated by growth and innovation,

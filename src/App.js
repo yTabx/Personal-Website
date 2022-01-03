@@ -16,7 +16,12 @@ function App() {
   }, [])
   return (
     <>
-      
+      <Typewriter 
+          onInit = {(typewriter) => {
+              typewriter.typeString("hello world").start();
+          } }       
+      />
+      /*
       <Router>
         <Navbar />
         
@@ -29,7 +34,7 @@ function App() {
         </Switch>
         <Footer />
       </Router>
-        
+        */
     </>
   );
 }
