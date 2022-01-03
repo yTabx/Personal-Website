@@ -6,6 +6,7 @@ import Footer from '../Footer';
 import ListsBlock from '../ListsBlock';
 import CardItem from '../CardItem';
 import './Home.css';
+import Typewriter from "typewriter-effect";
 function Home(){
     return(
         <>
@@ -14,6 +15,10 @@ function Home(){
                     typewriter.typeString("hello world").start();
                 } }       
             />
+            <HeroSection />
+            <ListsBlock />
+            
+            <Cards />
                 
                    
         </>
