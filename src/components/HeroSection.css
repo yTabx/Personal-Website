@@ -6,6 +6,7 @@
     font-size: 1.23rem;
     text-align-last: center;
     color: rgb(68, 68, 68);
+    background-color: blue;
     font-family:  Helvetica, Arial, sans-serif;
     /*filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.26));*/
     border-radius:16px ;
