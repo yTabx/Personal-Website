@@ -12,7 +12,7 @@ function Home(){
         <>
             <Typewriter 
                 onInit = {(typewriter) => {
-                    typewriter.typeString("hello world").start();
+                    typewriter.start();
                 } }       
             />
             <HeroSection />
