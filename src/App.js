@@ -21,20 +21,7 @@ function App() {
               typewriter.typeString("hello world").start();
           } }       
       />
-      /*
-      <Router>
-        <Navbar />
-        
-        <Switch>
-          <Route path = '/' exact component = {Home}/>
-          <Route path = '/services' component = {Services}/>
-          <Route path = '/sign-up' component = {SignUp}/>
-          <Route path = '/products' component = {Products}/>
-
-        </Switch>
-        <Footer />
-      </Router>
-        */
+      
     </>
   );
 }
