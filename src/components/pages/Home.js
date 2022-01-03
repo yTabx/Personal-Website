@@ -10,11 +10,7 @@ import Typewriter from "typewriter-effect";
 function Home(){
     return(
         <>
-            <Typewriter 
-                onInit = {(typewriter) => {
-                    typewriter.start();
-                } }       
-            />
+            <Typewriter />
             <HeroSection />
             <ListsBlock />
             
