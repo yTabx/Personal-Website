@@ -1,6 +1,4 @@
-* {
-    
-    background-image : url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+* {   
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,6 +6,11 @@
     font-family:  Helvetica, Arial, sans-serif;
     /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
 
+  }
+
+  .page{
+      background-image : url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+     
   }
 
   

@@ -15,7 +15,7 @@ function App() {
     document.title = "Nicholas Iyamabo"
   }, [])
   return (
-    <>
+    <div classname = "page">
       
       <Router>
         <Navbar />
@@ -30,7 +30,7 @@ function App() {
         <Footer />
       </Router>
         
-    </>
+    </div>
   );
 }
 
