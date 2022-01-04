@@ -23,6 +23,7 @@ function HeroSection() {
                         
                 </p>
             </div>
+            {/*
             <div className = 'image-container'>
                 <div className= 'image-wrapper'>
                     <ul className='image-trio'>
@@ -33,7 +34,7 @@ function HeroSection() {
                     </ul>
                 </div>
             </div>
-            
+            */}
         </div>
     );
 }
