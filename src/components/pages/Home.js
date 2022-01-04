@@ -10,7 +10,7 @@ import Typewriter from "react-simple-typewriter";
 function Home(){
     return(
         <>
-            <Typewriter />
+            {/*<Typewriter />*/}
 
             <HeroSection />
             <ListsBlock />
