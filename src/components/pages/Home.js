@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import ListsBlock from '../ListsBlock';
 import CardItem from '../CardItem';
 import './Home.css';
-import Typewriter from "react-simple-typewriter";
+//import Typewriter from "react-simple-typewriter";
 function Home(){
     return(
         <>
