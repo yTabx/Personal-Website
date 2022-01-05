@@ -10,7 +10,17 @@ function HeroSection() {
     return (
         
         <div className = 'about-card' id = 'about'>
-            
+            <pre id="typewriter">
+                <span class="var-highlight">var</span> 
+                object = 
+                    name: <span class="string-highlight">'Foo'</span>,
+                    type: <span class="string-highlight">'Bar'</span>,
+                    location: <span class="string-highlight">'Earth'</span>,
+                    properties:[<span class="string-highlight">'Javascript'</span>,
+                                <span class="string-highlight">'HTML'</span>,
+                                <span class="string-highlight">'CSS'</span>];
+                 
+            </pre>
             <div className = 'About-Text'>
                 <p >
                     Motivated by growth and innovation,
