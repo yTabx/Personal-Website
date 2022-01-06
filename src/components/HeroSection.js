@@ -9,8 +9,11 @@ import Typewriter from 'typewriter-effect/dist/core';
 //type writer function 
 
 
-
-
+var app = document.getElementById('typed');
+var typewriter = new Typewriter(app, {
+    loop: true,
+    delay: 75,
+});
 
 
 function HeroSection() {
@@ -29,7 +32,8 @@ function HeroSection() {
                  
             </pre>
             <div className = 'About-Text'>
-                <p >
+                <p id = "typed">
+                    {typewriter.typeString("hello world");}
                     Motivated by growth and innovation,
                 </p> 
                 <p>
