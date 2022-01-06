@@ -33,7 +33,7 @@ function HeroSection() {
             </pre>
             <div className = 'About-Text'>
                 <p id = "typed">
-                    {typewriter.typeString("hello world");}
+                    {typewriter.typeString("hello world")}
                     Motivated by growth and innovation,
                 </p> 
                 <p>
