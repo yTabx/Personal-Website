@@ -34,7 +34,7 @@ function HeroSection() {
             <div className = 'About-Text'>
                 <p>
 
-                    {typewriter.typeString("hello world")}
+                    {/*{typewriter.typeString("hello world")}*/}
                     Motivated by growth and innovation,
                 </p> 
                 <p>
