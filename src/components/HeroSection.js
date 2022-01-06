@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from './Button';
-import './HeroSection.css';
+import './HeroSection.scss';
 import '../App.css';
 import ImageCard from './ImageCard'
 import CardItem from './CardItem';
