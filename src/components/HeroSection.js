@@ -18,11 +18,11 @@ function HeroSection() {
         
         <div className = 'about-card' id = 'about'>
             <pre id="typewriter">
-                <span class="var-highlight">var</span> 
+                <span class="var-highlight">Developer</span> 
                 object = 
-                    name: <span class="string-highlight">'Foo'</span>,
-                    type: <span class="string-highlight">'Bar'</span>,
-                    location: <span class="string-highlight">'Earth'</span>,
+                    name: <span class="string-highlight">'Nicholas Iyamabo'</span>,
+                    type: <span class="string-highlight">'Student'</span>,
+                    location: <span class="string-highlight">'University of Birmingham'</span>,
                     properties:[<span class="string-highlight">'Javascript'</span>,
                                 <span class="string-highlight">'HTML'</span>,
                                 <span class="string-highlight">'CSS'</span>];
