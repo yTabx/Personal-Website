@@ -8,13 +8,13 @@ import Typewriter from 'typewriter-effect/dist/core';
 
 //type writer function 
 
-//{/*
+{/*
 var app = document.getElementById('typed');
 var typewriter = new Typewriter(app, {
     loop: true,
     delay: 75,
 });
-//*/}
+*/}
 
 function HeroSection() {
     return (
