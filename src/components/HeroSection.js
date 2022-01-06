@@ -4,7 +4,7 @@ import './HeroSection.css';
 import '../App.css';
 import ImageCard from './ImageCard'
 import CardItem from './CardItem';
-import Typewriter from 'typewriter-effect/dist/core';
+
 
 import Typewriter from 'typewriter-effect';
 
