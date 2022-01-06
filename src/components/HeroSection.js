@@ -6,15 +6,7 @@ import ImageCard from './ImageCard'
 import CardItem from './CardItem';
 import Typewriter from 'typewriter-effect/dist/core';
 
-//type writer function 
-
-{/*
-var app = document.getElementById('typed');
-var typewriter = new Typewriter(app, {
-    loop: true,
-    delay: 75,
-});
-*/}
+import Typewriter from 'typewriter-effect';
 
 function HeroSection() {
     return (
@@ -34,7 +26,20 @@ function HeroSection() {
             <div className = 'About-Text'>
                 <p>
 
-                    {/*{typewriter.typeString("hello world")}*/}
+                    <Typewriter
+                        onInit={(typewriter) => {
+                            typewriter.typeString('Hello World!')
+                                .callFunction(() => {
+                                    console.log('String typed out!');
+                                })
+                                .pauseFor(2500)
+                                .deleteAll()
+                                .callFunction(() => {
+                                    console.log('All strings were deleted');
+                                })
+                                .start();
+                        }}
+                    />
                     Motivated by growth and innovation,
                 </p> 
                 <p>
