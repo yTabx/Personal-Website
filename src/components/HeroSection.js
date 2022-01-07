@@ -29,7 +29,7 @@ function HeroSection() {
                 <p>
 
                     <Typewriter options={{
-                        delay = 100
+                        delay: 10
                     }}
                         onInit={(typewriter) => {
                             typewriter.typeString("<className = 'container'> Var developer  = <br> name: 'Nicholas Iyamabo', <br> type: 'Student', <br> location: 'University of Birmingham' <br> properties: ['Web Development',<br> 'Software Development'] </>").start(); 
