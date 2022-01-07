@@ -8,7 +8,7 @@ import CardItem from './CardItem';
 
 import Typewriter from 'typewriter-effect';
 
-@use './HeroSection.scss';
+//@use './HeroSection.scss';
 
 function HeroSection() {
     return (
