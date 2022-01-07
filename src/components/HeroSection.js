@@ -13,7 +13,7 @@ function HeroSection() {
         
         <div className = 'about-card' id = 'about'>
             <pre id="typewriter">
-                <span class="var-highlight">Var</span> 
+                <span classname ="var-highlight">Var</span> 
                 developer = 
                     name: <span class="string-highlight">'Nicholas Iyamabo'</span>,
                     type: <span class="string-highlight">'Student'</span>,
