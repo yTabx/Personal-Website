@@ -51,7 +51,7 @@ function HeroSection() {
                     />
                     <Typewriter
                         options={{
-                            strings: ['Hello', 'World'],
+                            strings: ['Hello', '<strong>World</strong>'],
                             autoStart: true,
                             loop: true,
                         }}
