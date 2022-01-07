@@ -30,7 +30,7 @@ function HeroSection() {
 
                     <Typewriter
                         onInit={(typewriter) => {
-                            typewriter.typeString("<div className = Container>  <div>Var</div> <div> developer </div> <div> = </div> </div>").start();
+                            typewriter.typeString("<div>Var developer  = <\br> name: 'Nicholas Iyamabo', <\br> type: 'Student', location = 'University of Birmingham' <\br> properties: ['Web Development',<br> 'Software Development']").start();
                             
                         }}
                         
