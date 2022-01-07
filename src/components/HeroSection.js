@@ -30,39 +30,11 @@ function HeroSection() {
 
                     <Typewriter
                         onInit={(typewriter) => {
-                            typewriter.typeString("Hello<br/> <strong> World! </strong>").start();
+                            typewriter.typeString("Hello<br/> <div className = 'test'> World! </div>").start();
                             typewriter.typeString('hello world2').start();
                         }}
                         
-                    />
-                    <Typewriter
-                        onInit={(typewriter) => {
-                            typewriter.typeString('Hello World!')
-                                .callFunction(() => {
-                                    console.log('String typed out!');
-                                })
-                                .pauseFor(2500)
-                                .deleteAll()
-                                .callFunction(() => {
-                                    console.log('All strings were deleted');
-                                })
-                                .start();
-                        }}
-                    />
-                    <Typewriter
-                        options={{
-                            strings: ['Hello', '<strong>World</strong>'],
-                            autoStart: true,
-                            loop: true,
-                        }}
-                    />
-                    <Typewriter
-                        options={{
-                            strings: ['Hello', '<strong>Worldafter</strong>'],
-                            autoStart: true,
-                            loop: true,
-                        }}
-                    />
+                    
                     Motivated by growth and innovation,
                 </p> 
                 <p>
