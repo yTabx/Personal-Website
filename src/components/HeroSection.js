@@ -30,7 +30,7 @@ function HeroSection() {
 
                     <Typewriter
                         onInit={(typewriter) => {
-                            typewriter.typeString("Hello\n <strong> World! </strong>").start();
+                            typewriter.typeString("Hello<br/> <strong> World! </strong>").start();
                             typewriter.typeString('hello world2').start();
                         }}
                         
