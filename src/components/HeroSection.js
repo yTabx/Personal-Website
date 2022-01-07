@@ -56,6 +56,13 @@ function HeroSection() {
                                 .start();
                         }}
                     />
+                    <Typewriter
+                        options={{
+                            strings: ['Hello', 'World'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
                     Motivated by growth and innovation,
                 </p> 
                 <p>
