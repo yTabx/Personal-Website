@@ -31,7 +31,7 @@ function HeroSection() {
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter.typeString("Hello\n <strong> World! </strong>").start();
-                            typewriter.typeString('hello    world2').start();
+                            typewriter.typeString('hello world2').start();
                         }}
                         
                     />
@@ -52,6 +52,13 @@ function HeroSection() {
                     <Typewriter
                         options={{
                             strings: ['Hello', '<strong>World</strong>'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
+                    <Typewriter
+                        options={{
+                            strings: ['Hello', '<strong>Worldafter</strong>'],
                             autoStart: true,
                             loop: true,
                         }}
