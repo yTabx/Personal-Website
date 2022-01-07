@@ -1,0 +1,13 @@
+.var-highlight {
+    color: peachpuff;
+}
+
+.string-highlight {
+    color: rgba(253, 149, 90, 0.8);
+}
+
+*{
+    font-size: 2em;
+    margin: 0;
+    font-family: "Courier New";
+}

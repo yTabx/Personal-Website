@@ -30,7 +30,7 @@ function HeroSection() {
 
                     <Typewriter options={{
                         delay: 10,
-                        skipAddStyles: true
+                        skipAddStyles: false
                     }}
                         onInit={(typewriter) => {
                             typewriter.typeString("<className = 'container', style = 'background-color: rgba(253, 149, 90);' , style = 'color: #27ae60;' '> Var developer  = <br> name: 'Nicholas Iyamabo', <br> type: 'Student', <br> location: 'University of Birmingham' <br> properties: ['Web Development',<br> 'Software Development'] </>").start();
