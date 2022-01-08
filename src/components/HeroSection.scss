@@ -16,26 +16,20 @@
     margin: 0;
     font-family: Courier New, monospace;
 }
-.About-Text {
-    background: linear-gradient(0deg, rgb(247, 247, 247) 0%, rgb(247, 247, 247) 100%);
-    padding: 24px;
-    font-size: 1.23rem;
-    text-align-last: center;
-    color: rgb(68, 68, 68);
-    background-color: rgb(0 255 255);
-    /*font-family:  Helvetica, Arial, sans-serif;*/
-    /*filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.26));
-    border-radius: 16px;
-    padding: 24px;
-    /*background-color: rgb(0 255 255);*/
-    
-}
-.about-card{
-    padding: 54px;
 
-    
-}
-/*
+@media only screen and (min-width: 780px) {
+    .type-writer {
+        margin: auto;
+        width: 50%;
+        font-size: 1rem;
+        margin: 0;
+        font-family: Courier New, monospace;
+    }
+
+    .about-card {
+        padding: 54px;
+    }
+    /*
 .image-trio{
     display: flex;
     margin-bottom: 0px;
@@ -72,34 +66,6 @@
   }
 
 
-/*typewriter css
-
-.var-highlight {
-    color: peachpuff;
-}
-
-.string-highlight {
-    color: rgba(253, 149, 90, 0.8);
-}
-
-#typewriter {
-    font-size: 2em;
-    margin: 0;
-    font-family: "Courier New";
-    
-}
-*/
-    /*
-    &:after
-
-    {
-        content: "|";
-        animation: blink 500ms linear infinite alternate;
-    }
-    
-
-}
-*/
   
   
 
