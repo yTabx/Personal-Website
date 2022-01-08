@@ -30,7 +30,7 @@ function HeroSection() {
 
                     <Typewriter options={{
                         delay: 10,
-                        skipAddStyles: true
+                        skipAddStyles: false
                     }}
                         onInit={(typewriter) => {
                             typewriter.typeString("<className = 'fs', style = 'font-size: 2em;' '>   <className = 'color', style = 'color: red;' '>      <className = 'ta', style = 'text-align:left;' '>   <className = 'font', style = 'font-family: 'Courier New';' '>           Var developer  = <br> name: 'Nicholas Iyamabo', <br> type: 'Student', <br> location: 'University of Birmingham' <br> properties: ['Web Development',<br> 'Software Development'] </> </> </> </>").start();
