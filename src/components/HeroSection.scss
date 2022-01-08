@@ -20,10 +20,17 @@
 @media only screen and (max-width: 780px) {
     .type-writer {
         margin: auto;
-        width: 100px;
+        width: 50%;
         font-size: 1rem;
         margin: 0;
         font-family: Courier New, monospace;
+    }
+    .type-writer-block {
+        margin: auto;
+        width: 400px;
+        border: 3px solid orange;
+        padding: 10px;
+        margin-top: 40px;
     }
 }
 
