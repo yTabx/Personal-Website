@@ -33,10 +33,17 @@ function HeroSection() {
                         skipAddStyles: true
                     }}
                         onInit={(typewriter) => {
-                            typewriter.typeString("<className = 'fs', style = 'font-size: 2em;' '>   <className = 'color', style = 'color: red;' '>      <className = 'ta', style = 'text-align:left;' '>   <className = 'font', style = 'font-family: 'Courier New';' '>          <pre><span, style = 'color: blue;'>Var</span> developer = <br>       name: 'Nicholas Iyamabo',<br>        type: 'Student',<br>        location: 'University of Birmingham',<br>       properties: ['Web Development',<br>     'Software Development']</pre> </> </> </> </>").start();
+                            typewriter.typeString("<className = 'fs', style = 'font-size: 2em;' '>   <className = 'color', style = 'color: red;' '>      <className = 'ta', style = 'text-align:left;' '>   <className = 'font', style = 'font-family: 'Courier New';' '>          <pre>test</pre> </> </> </> </>").start();
                         }}
                         
                     />
+                    <Typewriter
+                        options={{
+                            strings: ["Hello", "<className = 'fs', style = 'font - size: 2em;' '>   <className = 'color', style = 'color: red;' '>      <className = 'ta', style = 'text-align:left;' '>   <className = 'font', style = 'font-family: 'Courier New';' '>          <pre>test</pre> </> </> </> </>"],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                        />
                     Motivated by growth and innovation,
                 </p> 
                 <p>
