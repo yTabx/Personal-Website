@@ -3,7 +3,7 @@
 
 .type-writer-block {
     margin: auto;
-    width: 400px;
+    width: 50%;
     border: 3px solid orange;
     padding: 10px;
     margin-top:40px;
@@ -27,10 +27,16 @@
     }
 }
 
-    .about-card {
-        padding: 54px;
-    }
-    /*
+.about-card {
+    padding: 54px;
+}
+.About-Text {
+    font-size: 1rem;
+    padding-top: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 14px;
+}
 .image-trio{
     display: flex;
     margin-bottom: 0px;
@@ -66,7 +72,7 @@
     }
   }
         }
-    */
+    
 
 
   
