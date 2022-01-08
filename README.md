@@ -1,3 +1,12 @@
+✨ react website to host my portfolio ✨
+
+www.nickfullstack.com
+
+👇 react documentaion below 👇
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
