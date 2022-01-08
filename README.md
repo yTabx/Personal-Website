@@ -1,6 +1,6 @@
-✨react website to host my portfolio, ✨
+✨ react website to host my portfolio ✨
 
-👇react documentaion below 👇
+👇 react documentaion below 👇
 
 
 
