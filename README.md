@@ -1,5 +1,7 @@
 ✨ react website to host my portfolio ✨
 
+www.nickfullstack.com
+
 👇 react documentaion below 👇
 
 
