@@ -30,10 +30,10 @@ function HeroSection() {
 
                     <Typewriter options={{
                         delay: 10,
-                        skipAddStyles: true
+                        skipAddStyles: false
                     }}
                         onInit={(typewriter) => {
-                            typewriter.typeString("<className = 'fs', style = 'font - size: 2em;', style = 'text-align:left;', style = 'font-family: 'Courier New';' '>           <pre> <span, style = 'color: peachpuff;'>Var</span> <span style = 'color: black;'> developer =</span><br>     <span style = 'color: black;'> name =</span></pre> </>").start();
+                            typewriter.typeString("<className = 'fs', style = 'font - size: 2em;', style = 'text-align:left;', style = 'font-family: 'Courier New';' '>           <pre> <span, style = 'color: peachpuff;'>Var</span> <span style = 'color: black;'> developer =</span><br>     <span style = 'color: black;'> name: </span><span style = 'color: rgba(253, 149, 90, 0.8);'> 'Nicholas Iyamabo'</span><span style = 'color: black;'>,</span><br>     <span style = 'color: black;'> type: </span><span style = 'color: rgba(253, 149, 90, 0.8);'> 'Student'</span><span style = 'color: black;'>,</span><br>     <span style = 'color: black;'> location: </span><span style = 'color: rgba(253, 149, 90, 0.8);'> 'University of Birmingham'</span><span style = 'color: black;'>,</span></pre> </>").start();
                         }}
                         
                     />
