@@ -16,7 +16,7 @@ function HeroSection() {
             <div className='type-writer-block'>
                 <div className='type-writer'>
                     <Typewriter options={{
-                        delay: 1,
+                        
                         skipAddStyles: false
                     }}
                         onInit={(typewriter) => {
