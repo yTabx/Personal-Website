@@ -37,13 +37,7 @@ function HeroSection() {
                         }}
                         
                     />
-                    <Typewriter
-                        options={{
-                            strings: ["Hello", "<className = 'fs', style = 'font - size: 2em;' '>  <className = 'ta', style = 'text-align:left;' '>   <className = 'font', style = 'font-family: 'Courier New';' '>          <pre> <span, style = 'color: peachpuff;'>Var</span> <span style = 'color: black;'> developer =</span></pre> </> </> </> </>"],
-                            autoStart: true,
-                            loop: true,
-                        }}
-                        />
+                    
                     Motivated by growth and innovation,
                 </p> 
                 <p>
