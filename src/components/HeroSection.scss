@@ -33,6 +33,23 @@
         margin-top: 40px;
     }
 }
+@media only screen and (max-width: 600px) {
+    .type-writer {
+        margin: auto;
+        width: 50%;
+        font-size: 0.8rem;
+        margin: 0;
+        font-family: Courier New, monospace;
+    }
+
+    .type-writer-block {
+        margin: auto;
+        width: 350px;
+        border: 3px solid orange;
+        padding: 10px;
+        margin-top: 40px;
+    }
+}
 
 .about-card {
     padding: 54px;
