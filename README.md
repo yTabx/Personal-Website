@@ -2,7 +2,7 @@
 
 www.nickfullstack.com
 
-👇 react documentaion below 👇
+👇 react stuff below 👇
 
 
 
